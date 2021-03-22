@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="google-signin-client-id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+        <title>Ninja Spect</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+        <script src="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.js"></script>
+        <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.css"/>
+    </head>
+    <body>
+        <div id="main">
+            <nav>
+                <div class="logo">
+                    <a href="" class="fluento">Ninja Spect</a>
+                </div>
+                <div class="forms">
+                    <a href="#signup" id="subtn" class="round inverter">Sign Up</a>
+                    <a href="#login" id="libtn" class="round inverter">Log In</a>
+                </div>
+                <div class="menu">
+                    <a href="#main" class="fluento">Home</a>
+                    <a href="#about" class="fluento">About</a>
+                    <a href="#subjects" class="fluento">Subjects</a>
+                </div>
+            </nav>
+            <div class="modal-right" id="signup">
+                <img src="Images/disabled_by_default-24px.svg" class="close" id="close-modal">
+                <h1>Welcome to Ninja Spect</h1>
+                <div class="form-options">
+                </div>
+                <div class="details">
+                    <div id="username-box"><input type="text" id="username"></div>
+                    <div id="password-box"><input type="password" id="password"></div>
+                </div>
+            </div>
+            <div class="banner">
+                <div id="hooker">
+                    Fun Learning
+                </div>
+                <div id="description">
+                    Ninja Spect helps students achieve mastery in a range of subjects and become a knowledge ninja! View the world with new eyes and explore various courses and games.
+                </div>
+                <button id="download">Get Started</button>
+                <div id="graphic1">
+                    <img src="">
+                </div>
+            </div>
+            <section id="about">
+                <div class="img">
+                    <img src="Images/Videos.svg">
+                </div>
+                <div class="content">
+                    <h1>About</h1>
+                    <p>Ninja Spect was created to enhance online education and help students love learning. Unlike most learning platforms, Ninja Spect covers many fundamental subjects and creates a deep understanding of these subjects through games, videos and interactive lessons. We can almost guarantee that your school, student or child will enjoy Ninja Spect and make the most out of it.</p>
+                </div>
+            </div>
+            <section id="subjects">
+                <div id="maths">
+                    <a href="Maths/index.html">Maths</a>
+                </div>
+                <div id="reading">
+                    <a href="Reading/index.html">Reading</a>
+                </div>
+                <div id="writing">
+                    <a href="Writing/index.html">Writing</a>
+                </div>
+                <div id="science">
+                    <a href="Science/index.html">Science</a>
+                </div>
+            </section>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+        <script>
+            $(function() {
+                AOS.init();
+            });
+        </script>
+    </body>
+</html>
