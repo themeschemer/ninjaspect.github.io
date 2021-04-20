@@ -289,10 +289,10 @@ img.close:hover {
     width: 75%;
     height: 2vw;
     margin: 0 12.5% 0 12.5%;
-    padding: 0 0 0 0.3vw;
+    padding: 0 0 0 0.5vw;
     border-radius: 0.3vw;
     border: #eee 2px solid;
-    font-size: 16px;
+    font-size: 0.8vw;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -303,10 +303,10 @@ img.close:hover {
     width: 75%;
     height: 2vw;
     margin: 0 12.5% 0 12.5%;
-    padding: 0 0 0 0.3vw;
+    padding: 0 0 0 0.5vw;
     border-radius: 0.3vw;
     border: #0064ff 2px solid;
-    font-size: 16px;
+    font-size: 0.8vw;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
