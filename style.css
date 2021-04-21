@@ -312,7 +312,11 @@ img.close:hover {
     flex-direction: column;
 }
 #dashboard {
-    padding: 0 12.5% 0 12.5%;
+    padding: 2vw 12.5% 2vw 12.5%;
+    font-size: 3vw;
+}
+#progress {
+    padding: 2vw 12.5% 2vw 12.5%;
     font-size: 3vw;
 }
 .spinner,
