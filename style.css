@@ -314,10 +314,33 @@ img.close:hover {
 #dashboard {
     padding: 2vw 12.5% 2vw 12.5%;
     font-size: 3vw;
+    display: flex;
+    flex-direction: column;
 }
 #progress {
     padding: 2vw 12.5% 2vw 12.5%;
     font-size: 3vw;
+    display: flex;
+    flex-direction: column;
+}
+.dashbtn {
+    font-size: 1vw;
+    color: black;
+    border: #000000 solid 2px;
+    padding: 5px 15px 5px 15px;
+    margin: 0.5vw 0 0.5vw 0;
+    width: 10vw;
+    border-radius: 100000px;
+    background: linear-gradient(to right, #000000, #000000);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: 0%;
+    background-position-y: 50%;
+    transition: 0.2s;
+}
+.dashbtn:hover {
+    background-size: 100% 100%;
+    color: white;
 }
 .spinner,
 .spinner:before,
