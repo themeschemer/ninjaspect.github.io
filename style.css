@@ -282,7 +282,7 @@ img.close {
 img.close:hover {
     opacity: 1;
 }
-#username, #password {
+#username, #password, #type-password-again {
     outline: none;
     text-align: left;
     width: 75%;
@@ -296,22 +296,6 @@ img.close:hover {
     justify-content: space-evenly;
     flex-direction: column;
     transition: 0.2s;
-}
-#type-password-again {
-  outline: none;
-  text-align: left;
-  width: 75%;
-  height: 2vw;
-  margin: 5px 12.5% 0 12.5%;
-  padding: 0 0 0 0.5vw;
-  border-radius: 0.3vw;
-  border: #eee 2px solid;
-  font-size: 0.8vw;
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  transition: 0.2s;
-  margin-bottom: 15px;
 }
 #username:focus, #password:focus, #type-password-again:focus {
     text-align: left;
