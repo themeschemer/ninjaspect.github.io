@@ -313,7 +313,7 @@ img.close:hover {
   transition: 0.2s;
   margin-bottom: 15px;
 }
-#username:focus, #password:focus, #type-password-again {
+#username:focus, #password:focus, #type-password-again:focus {
     text-align: left;
     width: 75%;
     height: 2vw;
