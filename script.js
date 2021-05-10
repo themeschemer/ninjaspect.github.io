@@ -3,6 +3,7 @@ var suBtn = document.getElementById("subtn")
 var closeModal = document.getElementById("close-modal")
 var usernameBox = document.getElementById("username-box")
 var passwordBox = document.getElementById("password-box")
+var typeAgainBox = document.getElementById("type-again-box")
 var submitForm = document.getElementById("submit-form")
 
 suBtn.addEventListener("click", function () {
@@ -18,6 +19,9 @@ usernameBox.addEventListener("click", function () {
 })
 passwordBox.addEventListener("click", function () {
   passwordBox.focus()
+})
+typeAgainBox.addEventListener("click", function () {
+  typeAgainBox.focus()
 })
 function createRipple(event) {
     const button = event.currentTarget
