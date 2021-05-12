@@ -207,7 +207,7 @@ img {
 #subjects a {
     color: inherit;
 }
-#maths, #reading, #writing, #science {
+#maths, #reading, #writing, #science, #coding {
     font-size: 1.5vw;
     padding: 2.5vw;
     width: 20%;
@@ -219,7 +219,7 @@ img {
     border-radius: 1vw;
     transition: 0.2s;
 }
-#maths:hover, #reading:hover, #writing:hover, #science:hover {
+#maths:hover, #reading:hover, #writing:hover, #science:hover, #coding:hover {
     padding: 2.5vw;
     width: 20%;
     text-align: center;
@@ -239,6 +239,9 @@ img {
 }
 #science:hover {
     color: #ffc800;
+}
+#coding:hover {
+    color: #0064ff;
 }
 .modal-right {
     opacity: 0;
