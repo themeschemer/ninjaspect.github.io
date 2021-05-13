@@ -418,4 +418,8 @@ img.close:hover {
       opacity: 0;
     }
 }
-  
+@media only screen and (max-width: 800px) {
+    section {
+        flex-wrap: true;
+    }
+}
