@@ -25,10 +25,26 @@ body {
 
 a {
     text-decoration: none !important;
+    color: black;
+    transition: 0.2s;
+}
+
+a:hover {
+    color: black;
 }
 
 a:focus {
     outline: none;
+}
+
+a.link {
+    font-size: 1vw;
+    color: black;
+    border-bottom: #0064ff99 0.3vw solid;
+    text-align: center;
+}
+a.link:hover {
+    border-bottom: #0064ff 0.3vw solid;
 }
 
 nav {
@@ -117,6 +133,9 @@ button {
     cursor: pointer;
     font-weight: 400;
     transition: 0.2s;
+}
+button.font-fixed {
+    font-size: 1vw;
 }
 
 button:hover {
@@ -240,6 +259,19 @@ section {
 }
 #science:hover {
     color: #ffc800;
+}
+#coding {
+    color: white;
+    height: 20vw;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #7900dc;
+    transition: 0.2s;
+}
+#coding:hover {
+    background-color: #00b428;
 }
 .modal-right {
     opacity: 0;
@@ -381,6 +413,16 @@ img.close:hover {
 .dashbtn:hover {
     background-size: 100% 100%;
     color: white;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .spinner,
 .spinner:before,
