@@ -44,7 +44,7 @@ a:focus {
     transition: all .2s ease-in-out;
 }
 a.link {
-    font-size: 3vw;
+    font-size: 1vw;
     color: black;
     border-bottom: #0064ff99 0.3vw solid;
     text-align: center;
