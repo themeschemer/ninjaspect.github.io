@@ -37,8 +37,14 @@ a:focus {
     outline: none;
 }
 
+.grow:hover {
+    transform: scale(1.1);
+}
+.grow {
+    transition: all .2s ease-in-out;
+}
 a.link {
-    font-size: 1vw;
+    font-size: 3vw;
     color: black;
     border-bottom: #0064ff99 0.3vw solid;
     text-align: center;
@@ -184,6 +190,26 @@ span.ripple {
     left: 12.5%;
     font-size: 18px;
     width: 600px;
+}
+#showcase {
+    background-image: url("Images/Ninja Spect Art 16 to 9.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    font-size: 100px;
+    color: #0084ff;
+    margin: 30px;
+    border-radius: 20px;
+    font-weight:400;
+}
+#main-footer {
+    background: #fff;
+    color: #333;
+    text-align: center;
+    padding: 5px;
+    margin-top: 15px;
 }
 #hooker {
     position: absolute;
