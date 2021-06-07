@@ -44,12 +44,23 @@ a:focus {
     transition: all .2s ease-in-out;
 }
 a.link {
+    font-size: 1.5vw;
+    color: black;
+    border-bottom: #0064ff99 0.3vw solid;
+    text-align: center;
+    width: fit-content;
+}
+a.link:hover {
+    border-bottom: #0064ff 0.3vw solid;
+}
+footer a.link {
     font-size: 1vw;
     color: black;
     border-bottom: #0064ff99 0.3vw solid;
     text-align: center;
+    width: auto;
 }
-a.link:hover {
+footer a.link:hover {
     border-bottom: #0064ff 0.3vw solid;
 }
 
@@ -420,6 +431,40 @@ img.close:hover {
     font-size: 3vw;
     display: flex;
     flex-direction: column;
+}
+#courses {
+    margin: 0 12.5% 0 12.5%;
+    height: calc(20vw*8 + 18vw);
+    font-size: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.modbox {
+    font-size: 2vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 18vw;  
+}
+.course {
+    padding: 2vw;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 20vw;
+    box-shadow: #99999944 0 0 4vw 0;
+    border-radius: 1vw;
+    transition: 0.2s;
+}
+.modlist {
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 12vw;
+    width: 20vw;
 }
 .book-default {
     font-size: 1vw;
