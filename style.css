@@ -434,7 +434,7 @@ img.close:hover {
 }
 #courses {
     margin: 0 12.5% 0 12.5%;
-    height: calc(20vw*8 + 18vw);
+    height: calc(20vw*10 + 10*2vw);
     font-size: 4vw;
     display: flex;
     flex-direction: column;
