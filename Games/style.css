@@ -1,0 +1,24 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    padding: 0px;
+    margin: 0;
+    font-family: 'Leon';
+    font-weight: 400;
+    font-size: 18px;
+    box-sizing: content-box !important;
+    scroll-behavior: smooth;
+    user-select: none;
+    background-color: white;
+    color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: white;
+}
+
+@font-face {
+    font-family: 'Leon';
+    src: url(LeonSans-Medium.otf);
+}
