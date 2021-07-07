@@ -78,15 +78,12 @@ a:focus {
     height: 95vh;
     width: auto;
     background-size: cover;
-    margin: 40px;
-    border-radius: 20px;
-    font-weight:500;
 }
 #showcaseText {
     font-size: 7vw;
-    font-weight: 500;
+    font-weight: 300;
     text-align: center;
-    color: #0084ff;
+    color: white;
     position:absolute;
     top:8%;
     left:36%;
@@ -260,9 +257,7 @@ span.ripple {
     width: auto;
     background-size: cover;
     font-size: 100px;
-    color: #0084ff;
-    margin: 30px;
-    border-radius: 20px;
+    color: white;
     font-weight:400;
 }
 #main-footer {
@@ -431,8 +426,18 @@ img.close:hover {
     flex-direction: column;
 }
 #submit-form {
-    margin: 0.5vw 0 0.5vw 0;
+    padding: 3%;
+    width: 50%;
+    font-size: large;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
+
+#new-here {
+    font-size:large;
+}
+
 #dashboard {
     padding: 2vw 12.5% 2vw 12.5%;
     font-size: 3vw;
