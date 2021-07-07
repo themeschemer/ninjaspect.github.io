@@ -43,6 +43,56 @@ a:focus {
 .grow {
     transition: all .2s ease-in-out;
 }
+#loginform {
+    margin: 0 12.5% 0 12.5%;
+    height: 30vw;
+    font-size: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.loginform {
+    text-align: center;
+    padding: 2vw;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 26vw;
+    width: 20vw;
+    box-shadow: #99999944 0 0 4vw 0;
+    border-radius: 1vw;
+    transition: 0.2s;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    background-color: white;
+    justify-content: center;
+    align-items: center
+}
+
+#showcase {
+    background-image: url("Images/Ninja Spect Art 16 to 9.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 95vh;
+    width: auto;
+    background-size: cover;
+    margin: 40px;
+    border-radius: 20px;
+    font-weight:500;
+}
+#showcaseText {
+    font-size: 7vw;
+    font-weight: 500;
+    text-align: center;
+    color: #0084ff;
+    position:absolute;
+    top:8%;
+    left:36%;
+    line-height:100%;
+}
+
 a.link {
     font-size: 1.5vw;
     color: black;
