@@ -43,7 +43,7 @@ a:focus {
 .grow {
     transition: all .2s ease-in-out;
 }
-#loginform {
+#loginform { 
     margin: 0 12.5% 0 12.5%;
     height: 30vw;
     font-size: 4vw;
@@ -51,10 +51,11 @@ a:focus {
     flex-direction: column;
     justify-content: space-evenly;
 }
-.loginform {
+.loginform { 
     text-align: center;
+    line-height: 10vh;
+    font-size: 5vh;
     padding: 2vw;
-    font-size: 2vw;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -62,7 +63,6 @@ a:focus {
     width: 20vw;
     box-shadow: #99999944 0 0 4vw 0;
     border-radius: 1vw;
-    transition: 0.2s;
     position: absolute;
     top: 40%;
     left: 40%;
@@ -71,7 +71,7 @@ a:focus {
     align-items: center
 }
 
-#showcase {
+#showcase { 
     background-image: url("Images/Ninja Spect Art 16 to 9.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -79,13 +79,13 @@ a:focus {
     width: auto;
     background-size: cover;
 }
-#showcaseText {
+#showcaseText { 
     font-size: 7vw;
     font-weight: 300;
     text-align: center;
     color: white;
     position:absolute;
-    top:8%;
+    top:10%;
     left:36%;
     line-height:100%;
 }
@@ -249,7 +249,7 @@ span.ripple {
     font-size: 18px;
     width: 600px;
 }
-#showcase {
+#showcase { 
     background-image: url("Images/Ninja Spect Art 16 to 9.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -260,12 +260,12 @@ span.ripple {
     color: white;
     font-weight:400;
 }
-#main-footer {
+#main-footer { 
     background: #fff;
     color: #333;
     text-align: center;
-    padding: 5px;
-    margin-top: 15px;
+    padding: 0.5vw;
+    font-size: 1vw;
 }
 #hooker {
     position: absolute;
@@ -379,6 +379,8 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    line-height:5vw;
+    font-size:2.5vw;
 }
 .form-options {
     display: flex;
@@ -426,16 +428,19 @@ img.close:hover {
     flex-direction: column;
 }
 #submit-form {
-    padding: 3%;
+    padding: 1%;
+    height: 15%;
     width: 50%;
-    font-size: large;
+    font-size: medium;
     text-align: center;
     left: 50%;
     transform: translate(-50%, 0);
+    line-height:2vw;
 }
 
 #new-here {
-    font-size:large;
+    font-size:1vw;
+    line-height: 4vw;
 }
 
 #dashboard {
