@@ -253,10 +253,6 @@ span.ripple {
 #error {
     background-image: url("Images/404-9x16.png");
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: auto;
-    width: auto;
-    background-size: cover;
 }
 #errorText {
     font-size: 3vw;
