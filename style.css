@@ -14,8 +14,12 @@ body {
     color: black;
 }
 
+::-webkit-scrollbar-track {
+  background: white;
+}
+
 ::-webkit-scrollbar-thumb {
-    background-color: white;
+    background-color: #0064ff;
 }
 
 @font-face {
