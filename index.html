@@ -1,118 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Ninja Spect</title>
-        <meta name="description" content="Ninja Spect helps students achieve mastery in a range of subjects and become a knowledge ninja! View the world with new eyes and explore various courses and games.">
-        <meta property="og:url" content="https://ninjaspect.github.io">
-        <meta property="og:site_name" content="Ninja Spect">
-        <meta property="og:description" content="Ninja Spect helps students achieve mastery in a range of subjects and become a knowledge ninja! View the world with new eyes and explore various courses and games.">  
-        <meta property="og:title" content="Ninja Spect Learning">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-        <script src="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.js"></script>
-        <link type="text/css" rel="stylesheet" href="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.css"/>
-        <link rel="icon" type="image" href="Images/Samurai Ninja Star.png">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <title>Home | NinjaSpect</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" type="image/png" href="images/icon.png">
+        <script src="https://kit.fontawesome.com/b7f1a89c44.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <div id="main">
-            <nav>
-                <div class="logo">
-                    <a href="" class="fluento">Ninja Spect</a>
-                </div>
-                <div class="forms">
-                    <a href="#signup" id="subtn" class="round inverter">Sign Up</a>
-                    <a href="Login/index.html" id="libtn" class="round inverter">Log In</a>
-                </div>
-                <div class="menu">
-                    <a href="#main" class="fluento">Home</a>
-                    <a href="#about" class="fluento">About</a>
-                    <a href="#subjects" class="fluento">Subjects</a>
-                </div>
-            </nav>
-            <div class="modal-right" id="signup">
-                <span class="material-icons close" id="close-modal">close</span>
-                <h1>Welcome to Ninja Spect</h1>
-                <div class="form-options">
-                </div>
-                <div class="details">
-                    <span>Create a username</span>
-                    <div id="username-box">
-                        <input type="text" id="username" placeholder="Username">
-                    </div>
-                    <span>Create a password</span>
-                    <div id="password-box">
-                        <input type="password" id="password" placeholder="Password">
-                    </div>
-                    <div id="type-again-box">
-                        <input type="password" id="type-password-again" placeholder="Type your password again">
-                    </div>
-                    <button type="submit" id="submit-form">Continue</button>
-                    <span>Already have an account? <a href="#login">Login</a></span>
-                </div>
+        <div class="navbar">
+            <div class="navcontent">
+                <img src="images/icon.png" width="65">
+                <a href="#" class="navlink" style="margin-left: 400px;"><h1>Home</h1></a>
+                <a href="#" class="navlink"><h1>About</h1></a>
+                <a href="#" class="navlink"><h1>For Parents</h1></a>
+                <a href="#" class="navlink"><h1>Subjects</h1></a>
+                <a href="#"><button class="navbutton button-filled button-black"><i class="fas fa-sign-in-alt"></i>&nbsp; Log In</button></a>
+                <a href="#"><button class="navbutton button-filled" style="margin-left: 10px;"><i class="fas fa-user-plus"></i>&nbsp; Register</button></a>
             </div>
-            <div class="banner">
-                <div id="hooker">
-                    Fun Learning
-                </div>
-                <div id="description">
-                    Ninja Spect helps students achieve mastery in a range of subjects and become a knowledge ninja! View the world with new eyes and explore various courses and games.
-                </div>
-                <button id="download" class="ripplebtn">Get Started</button>
-                <div id="graphic1">
-                    <img src="">
-                </div>
-            </div>
-            <section id="about">
-                <div class="img" id="image-div">
-                    <img src="Images/Videos.svg">
-                </div>
-                <div class="content">
-                    <h1>About</h1>
-                    <p>Ninja Spect was created to enhance online education and help students love learning. Unlike most learning platforms, Ninja Spect covers many fundamental subjects and creates a deep understanding of these subjects through games, videos and interactive lessons. We can almost guarantee that your school, student or child will enjoy Ninja Spect and make the most out of it.</p>
-                </div>
-            </section>
-            <section id="subjects">
-                <a id="maths" href="Maths/index.html">
-                    Maths
-                </a>
-                <a id="reading" href="Reading/index.html">
-                    Reading
-                </a>
-                <a id="writing" href="Writing/index.html">
-                    Writing
-                </a>
-                <a id="science" href="Science/index.html">
-                    Science
-                </a>
-            </section>
-            <section id="coding">
-                We provide the best coding curriculum you could ever expect!
-                <button class="font-fixed ripplebtn">
-                    Get Coding
-                </button>
-            </section>
-            <footer>
-                <div>
-                    <a href="index.html#main"><img src="Icons/Ninja Mascot Icon.svg" alt=""></a>
-                    <a href="Maths/index.html" class="link">Maths</a>
-                    <a href="Reading/index.html" class="link">Reading</a>
-                    <a href="Writing/index.html" class="link">Writing</a>
-                    <a href="Science/index.html" class="link">Science</a>
-                </div>
-                
-            </footer>
         </div>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <script src="script.js"></script>
-        <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-        <script>
-            $(function() {
-                AOS.init();
-            });
-        </script>
+        <div class="hero">
+            <h2 class="pre-header">Introducing NinjaSpect</h2>
+            <h1 class="header">For every&nbsp;
+                <span class="word"></span>
+                <span class="word word-red">student.</span>
+                <span class="word word-yellow">parent.</span>
+                <span class="word word-green">educator.</span>
+                <span class="word word-blue">learner.</span>
+                <span class="word word-purple">experimenter.</span>
+                <span class="word word-pink">programmer.</span>
+                <span class="word word-rainbow">body.</span>
+            </h1>
+            <br>
+            <p style="width: 550px;">NinjaSpect helps learners reach mastership from our wide selection of subjects and become a learning ninja! View the world with new eyes as you explore various courses and games.</p>
+            <br>
+            <a href="#"><button class="button-filled"><i class="fas fa-star"></i>&nbsp; Get Started</button></a>
+            <a href="#"><button class="button-filled button-black"><i class="fas fa-download"></i>&nbsp; Desktop App</button></a>
+        </div>
+        <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
